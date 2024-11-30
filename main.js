@@ -83,10 +83,52 @@ Num3 ++;
 
 // operadores de comparacion
 
-alert (2>1);
-alert (2<1);
-alert (2==1);
-alert (2!=1);
+// alert (2>1);
+// alert (2<1);
+// alert (2==1);
+// alert (2!=1);
+
+
+//condicionales
+// let year = prompt("Inrese el anio actual: ");
+
+// if(year == 2024){
+//     alert("Muy Bien");
+//     alert("Eres Genial");
+    
+// }
+
+
+
+//else
+
+// let year = prompt("Inrese el anio actual: ");
+
+// if(year == 2024){
+//     alert("Muy Bien");
+//     alert("Eres Genial");
+    
+// }else{
+//     alert("No es correcto");
+// }
+
+
+
+// condicionales encadenados
+
+let year = prompt("Inrese el anio actual: ");
+
+if(year == 2024){
+    alert("Muy Bien");
+    alert("Eres Genial");    
+}else if(year > 2024){
+    alert("Muy Alto");
+}else if(year < 2024){
+    alert("Muy Bajo");
+}else{
+    alert("No es correcto");
+}
+
 
 
 
