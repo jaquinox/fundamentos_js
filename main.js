@@ -114,26 +114,78 @@ Num3 ++;
 
 
 
-// condicionales encadenados
+// // condicionales encadenados
 
-let year = prompt("Inrese el anio actual: ");
+// let year = prompt("Inrese el anio actual: ");
 
-if(year == 2024){
-    alert("Muy Bien");
-    alert("Eres Genial");    
-}else if(year > 2024){
-    alert("Muy Alto");
-}else if(year < 2024){
-    alert("Muy Bajo");
-}else{
-    alert("No es correcto");
+// if(year == 2024){
+//     alert("Muy Bien");
+//     alert("Eres Genial");    
+// }else if(year > 2024){
+//     alert("Muy Alto");
+// }else if(year < 2024){
+//     alert("Muy Bajo");
+// }else{
+//     alert("No es correcto");
+// }
+
+
+// operadores logicos
+
+// or ||
+
+// alert(true || true); // salida true
+// alert(true || false); // salida true
+// alert(false || true); // salida true
+// alert(false || false); // salida false
+
+// let hour = 12;
+// let isWeekend = false;
+
+// if(hour < 9 || hour > 18 || isWeekend){
+//     alert("La oficina esta cerrada");
+// }else{
+//     alert("Open!");
+// }
+
+// and &&
+
+//  alert(true && true); // salida true
+//  alert(true && false); // salida false
+//  alert(false && true); // salida false
+// alert(false && false); // salida false
+
+
+
+
+let user1 ="Admin";
+
+let user2 = prompt("Who's there?");
+
+let user = "jesus";
+let pass = 12345;
+
+
+if(user2 == user1){
+
+    let user3 = prompt("Ingrese usurio: ");
+    let password = prompt("Ingrese Password: ");
+
+    if(user3 == user && password == pass){
+        alert("Bienvenido");
+
+    }else{
+        alert("Datos Incorrectos");
+    }
+
+
+}else if(user2 != user1){
+    alert("I don't know you");
+}else if(user2 ==""){
+
+    alert("No es usuario");
+
 }
-
-
-
-
-
-
 
 
 
