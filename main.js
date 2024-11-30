@@ -167,28 +167,14 @@ let pass = 12345;
 
 
 if(user2 == user1){
-
     let user3 = prompt("Ingrese usurio: ");
     let password = prompt("Ingrese Password: ");
-
-    if(user3 == user && password == pass){
+    if(user3 == user && password == pass)
         alert("Bienvenido");
+    else
+        alert("Datos Incorrectos"); 
 
-    }else{
-        alert("Datos Incorrectos");
-    }
-
-
-}else if(user2 != user1){
+}else if(user2 != user1)
     alert("I don't know you");
-}else if(user2 ==""){
-
+else if(user2 =="")
     alert("No es usuario");
-
-}
-
-
-
-
-
-
