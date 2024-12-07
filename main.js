@@ -158,23 +158,88 @@ Num3 ++;
 
 
 
-let user1 ="Admin";
+// let user1 ="Admin";
 
-let user2 = prompt("Who's there?");
+// let user2 = prompt("Who's there?");
 
-let user = "jesus";
-let pass = 12345;
+// let user = "jesus";
+// let pass = 12345;
 
 
-if(user2 == user1){
-    let user3 = prompt("Ingrese usurio: ");
-    let password = prompt("Ingrese Password: ");
-    if(user3 == user && password == pass)
-        alert("Bienvenido");
-    else
-        alert("Datos Incorrectos"); 
+// if(user2 == user1){
+//     let user3 = prompt("Ingrese usurio: ");
+//     let password = prompt("Ingrese Password: ");
+//     if(user3 == user && password == pass)
+//         alert("Bienvenido");
+//     else
+//         alert("Datos Incorrectos"); 
 
-}else if(user2 != user1)
-    alert("I don't know you");
-else if(user2 =="")
-    alert("No es usuario");
+// }else if(user2 != user1)
+//     alert("I don't know you");
+// else if(user2 =="")
+//     alert("No es usuario");
+
+
+//ciclo while
+
+/* while(contition){
+    sentences;
+}
+    
+*/
+
+
+// let counter = 0;
+
+
+// while (counter <3){
+//     alert(counter);
+//     counter++;
+// }
+
+
+//ciclo for
+
+// for(begin; CSSConditionRule; step){
+//     sentences;
+// };
+
+// for (let counter =0; counter < 3; counter++ ){
+//     alert(counter);
+// }
+
+
+//funciones
+// function showMessage(){
+//     alert("hola mundo");
+    
+// }
+
+// showMessage();
+
+
+
+// function showMessage(){
+//     let message =" hola";
+//     alert(message);
+    
+// }
+
+// showMessage();
+
+// alert(message);
+
+let userName = "josefino";
+
+function showMessage(){
+    let message =" hola "+userName;
+    alert(message);
+    
+}
+
+showMessage();
+
+
+
+
+
